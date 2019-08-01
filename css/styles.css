@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(105,105,105);
+    font-family: lato, sans-serif;
+}
+.nav-bar {
+  position:fixed;
+  top:0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(29,35,36);
+  z-index: 1;
+  color:white;
+}
+.logo {
+    padding: 0;
+    margin: 5px 0px 0px 30px;
+    height: 100px;
+    float: left;
+  }
+.nav-list {
+  float: left;
+  list-style-type: none;
+}
+.list-item {
+  float: left;
+  /*   padding:; */
+  margin: 30px ;
+}
+.list-item a{
+  color:white;
+    text-decoration:none;
+}
+.list-item a:hover{
+  color:red;
+    text-decoration:none;
+}
+/* .zer0{
+  float:left;
+  padding: 0;
+  margin: 0px;
+  width: 100%;
+} */
+.hero{
+  background-image: url(../images/zer0.png);
+  background-size: 100%;
+  background-position: center;
+  height:1030px;
+  margin-top: 80px;
+}
+.hero-text-box{
+  height: 100px;
+  width: 200px;
+  background-color:rgb(63, 28, 168);
+  border: solid 3px forestgreen;
+  position: absolute;
+  left:830px;
+  top:435px; 
+}
+.hero-text{
+  text-align: center;
+  /* position: absolute;
+  top: 6px;
+  left: 70px; */
+}
+.container{
+  height:700px;
+}
+.box{
+  width: 32%;
+  height: 650px;
+  border: solid 3px red;
+  float:left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.box-img{
+  height:342px;
+
+}
+.box p{
+  padding: 25px;
+}
+h1{
+  display: block;
+  /* background-color:blanchedalmond; */
+  height:60px;
+  width:250px;
+  margin:auto;
+}
+.footer{
+  width:100%;
+  height: 80px;
+  background-color:red;
+}
+
+.footer-box{
+  float: left;
+  width:32%;
+  height: 80px;
+}
+.input, .social, .copy{
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 17PX;
+}
+.fab:hover{
+  color:white;
+
+}
+.fab{
+  font-size: 2em;
+  margin: 0px 50px;
+}
+
+.fa-twitter{
+  color: #1da1f2;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-instagram{
+  color: #bc2a8d;
+}
+.copy p{
+  display: inline;
+  margin-top: 25px;
+  text-align: center;
+}
