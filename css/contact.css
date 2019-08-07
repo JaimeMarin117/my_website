@@ -6,7 +6,7 @@
 .contact-box{
     width: 48%;
     float: left;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 900px;
     margin-left: 20px;
 }
