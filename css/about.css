@@ -1,25 +1,25 @@
-.nav-bar:hover{
+/* .nav-bar:hover{
     background-color: teal;
-}
+} */
 .about-container{
     width: 100%;
-    height: 600px;
+    height: 1000px;
     margin-top: 120px;
 }
 .about-container h2{
     text-align: center;
-    color: blue;
+    color: black;
 }
 .about-box{
     float: left;
     height: 450px;
     width: 31%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin-left: 20px;
   
 }
 .about-img{ 
-    height: 250px;
+    height: 280px;
 }
 .about-img, .about-audio{
     display: block;
